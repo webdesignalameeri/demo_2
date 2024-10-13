@@ -53,7 +53,7 @@ body {
     font-weight: bolder;
 }
 .topic_arabic {
-    font-size: 10px;
+    font-size: 12px;
     color: black;
     width: auto;
     display: inline-block; /* Ensures transform works */
