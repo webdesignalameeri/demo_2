@@ -57,7 +57,7 @@ body {
     color: black;
     width: auto;
     display: inline-block; /* Ensures transform works */
-    transform: scaleX(1.8);
+    transform: scaleX(1.9);
 }
 
 .sector-topic {
