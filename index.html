@@ -22,27 +22,26 @@
             <h4 class="topic">Employment Application</h4>
             <h1 class="topic_arabic"> طلب توظيف</h1>
         </div>
-        <form class="application-form" id="application-form" method="POST">
+        <form class="application-form" id="application-form"  method="POST" action="https://script.google.com/macros/s/AKfycbwevwSZiNExh5eAtwyp-85CIRaOLSpLXeoyo1K4A5R-Di-M93ISbouQ0v20pDAzWtM7/exec" enctype="multipart/form-data" >
             <div class="form-group">
-                <label for="fullname">Full Name / الاسم الكامل:</label>
+                <label for="fullname">Full Name / الاسم الكامل</label>
                 <input type="text" class="form-control custom-input" id="fullname" name="fullname" required>
             </div>
             <div class="form-group">
-                <label for="nationality">Nationality / الجنسية:</label>
+                <label for="nationality">Nationality / الجنسية</label>
                 <input type="text" class="form-control custom-input" id="nationality" name="nationality" required>
             </div>
-
             <div class="form-group">
-                <label for="phone">Phone No / رقم الهاتف:</label>
+                <label for="phone">Phone No / رقم الهاتف</label>
                 <input type="tel" class="form-control custom-input" id="phone" name="phone" required>
             </div>
 
             <div class="form-group">
-                <label for="email">Email / البريد الإلكتروني:</label>
+                <label for="email">Email / البريد الإلكتروني</label>
                 <input type="email" class="form-control custom-input" id="email" name="email" required>
             </div>
             <div class="form-group">
-                <label id="gender-info">Gender / الجنس:</label> 
+                <label id="gender-info">Gender / الجنس</label> 
                 <div class="d-flex align-items-center">
                     <div class="form-check me-3">
                         <input class="form-check-input" type="radio" name="gender" id="gender-male" value="male"
@@ -56,22 +55,18 @@
                     </div>
                 </div>
             </div><br>
-            <div class="form-group">
-                <label for="position">Position Applied For / الوظيفة المتقدم لها:</label>
-                <input type="text" class="form-control custom-input" id="position" name="position" required>
-            </div>
             <div class="form-group row">
                 <div class="col-md-6">
-                    <label>Last Company / <br> آخر شركة :</label>
+                    <label>Last Company / <br> آخر شركة </label>
                     <input type="text" class="form-control custom-input" id="last_company" name="last_company" required>
                 </div>
                 <div class="col-md-6">
-                    <label>Last Salary / <br> آخر راتب :</label>
+                    <label>Last Salary / <br> آخر راتب </label>
                     <input type="text" class="form-control custom-input" id="last_salary" name="last_salary" required>
                 </div>
-            </div><br>
+            </div><br>           
             <div class="form-group">
-                <h5 class="sector-topic">Sector you are interested in / <br> القطاع الذي تهتم به:</h5>
+                <h5 class="sector-topic">Sector you are interested in / <br> القطاع الذي تهتم به</h5>
             </div>
             <div class="row">
                 <div class="col-12">
@@ -160,11 +155,11 @@
 
             <br><br>
             <div class="form-group">
-                <label for="cv">Upload your CV (PDF) / رفع السيرة الذاتية :</label>
+                <label for="cv">Upload your CV (PDF) / رفع السيرة الذاتية </label>
                 <input type="file" id="cv" name="cv" accept=".pdf" required class="form-control-file">
             </div><br>
             <div class="form-group">
-                <label for="certificates">Any other Certificates (PDF) / أي شهادات أخرى :</label>
+                <label for="certificates">Any other Certificates (PDF) / أي شهادات أخرى </label>
                 <input type="file" id="certificates" name="certificates" accept=".pdf" multiple required
                     class="form-control-file">
             </div><br>

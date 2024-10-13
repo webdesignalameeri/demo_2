@@ -21,10 +21,10 @@ body {
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     text-align: center;
-    background-image: url('bg_new.png');
-    background-size: cover; /* Ensure the image covers the entire container */
-    background-repeat: no-repeat; /* Prevent the image from repeating */
-    background-position: center;
+    /* background-image: url('bg_new.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; */
 }
 
 .logo-container {
@@ -48,14 +48,16 @@ body {
 }
 
 .topic{
-    font-size: 20px;
+    font-size: 24px;
     color: black;
     font-weight: bolder;
 }
 .topic_arabic {
-    font-size: 45px;
+    font-size: 32px;
     color: black;
     width: auto;
+    display: inline-block; /* Ensures transform works */
+    transform: scaleX(2.2);
 }
 
 .sector-topic {
