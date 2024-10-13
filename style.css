@@ -52,7 +52,7 @@ body {
     color: black;
 }
 .topic_arabic {
-    font-size: 12px;
+    font-size: 11px;
     color: black;
     width: auto;
     display: inline-block; /* Ensures transform works */
