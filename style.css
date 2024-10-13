@@ -53,11 +53,11 @@ body {
     font-weight: bolder;
 }
 .topic_arabic {
-    font-size: 30px;
+    font-size: 25px;
     color: black;
     width: auto;
     display: inline-block; /* Ensures transform works */
-    transform: scaleX(2.1);
+    transform: scaleX(2.3);
 }
 
 .sector-topic {
