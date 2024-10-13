@@ -57,7 +57,7 @@ body {
     width: auto;
     display: inline-block; /* Ensures transform works */
     transform: scaleX(1.0);
-    font-weight: bolder;
+    font-weight:900;
 
 }
 
