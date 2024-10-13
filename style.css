@@ -27,7 +27,6 @@ body {
     width: 100%;
     /* Make it responsive */
     height: auto;
-    background-image: url('bg-logo2_more_lighter_blue.png');
     /* Set your background image */
     background-size: cover;
     /* Adjust the size to cover the container */
@@ -42,12 +41,15 @@ body {
 .logo {
     width: 100%;
     /* Adjusts based on container size */
-    margin: 10px auto;
 }
 
-.topic,
-.topic_arabic {
+.topic{
     font-size: 30px;
+    color: black;
+    font-weight: bold;
+}
+.topic_arabic {
+    font-size: 35px;
     color: black;
     font-weight: bold;
 }
@@ -60,16 +62,15 @@ body {
 
 .application-form label {
     color: black;
-    font-weight: bold;
+    font-size: 25px;
+    font-weight:bolder;
     display: block;
     text-align: left;
-    background: linear-gradient(to right, grey, lightgrey 30%, transparent);
     padding: 5px 10px;
     border-radius: 20px;
 }
 
 .custom-input {
-    border-radius: 25px;
     margin-bottom: 15px;
     border: 1px solid black;
     /* Black border */
@@ -79,7 +80,6 @@ body {
 
 .btn-custom {
     color: white;
-    border-radius: 25px;
     padding: 10px 30px;
     font-size: 1rem;
 }
