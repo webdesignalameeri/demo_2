@@ -21,6 +21,10 @@ body {
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.5);
     border-radius: 15px;
     text-align: center;
+    background-image: url('bg_new.png');
+    background-size: cover; /* Ensure the image covers the entire container */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center;
 }
 
 .logo-container {
