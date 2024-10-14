@@ -48,17 +48,16 @@ body {
 }
 
 .topic{
-    font-size: 20px;
+    font-size: 25px;
     color: black;
 }
 .topic_arabic {
-    font-size: 13px;
+    font-size: 16px;
     color: black;
     width: auto;
     display: inline-block; /* Ensures transform works */
     transform: scaleX(1.0);
     font-weight:900;
-
 }
 
 .sector-topic {
